@@ -1,0 +1,109 @@
+$body-color: #000;
+$font-family-sans-serif: 'Barlow';
+$font-weight-bold: 600;
+$font-weight-bolder: 800;
+$h1-font-size: 3rem;
+$primary: #3CC0C6;
+$light: #f3fbfc;
+$secondary: #F79432;
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;;
+}
+
+section {
+    margin-top: 100px;
+}
+
+.nav-menu {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.nav-link {
+    color: #000000 !important;
+}
+
+.image-brand {
+    width: 120px;
+    max-width: 100%;
+    height: auto;
+}
+
+.auth-action {
+    display: flex;
+    flex-direction: column;
+    border-left: 0;
+    border-top: 1px solid #bdbdbd;
+    margin: 1rem 0;
+    padding-top: 1rem;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.featured-img {
+    width: 100%;
+    height: auto;
+}
+
+.benefit-icon {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+}
+
+.customer-image {
+    width: 160px;
+}
+
+.archived-title {
+    height: 100%;
+
+    span {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+}
+
+.map-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 20px;
+    }
+        
+    .auth-action {
+        display: flex;
+        flex-direction: row;
+        border-left: 1px solid #bdbdbd;
+        border-top: 0;
+        margin: 0;
+        padding-top: 0;
+        margin-left: 1rem;
+        padding-left: 1rem;
+    }
+   
+    .login {
+        margin-bottom: 0;
+    }
+
+}
+
+@media (min-width: 2000px) {
+    
+    
+}
+
+@import "../style/bootstrap/scss/bootstrap.scss"
